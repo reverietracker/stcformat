@@ -1,9 +1,9 @@
 {
-  "name": "stcfile",
+  "name": "stcformat",
   "version": "1.0.0",
   "description": "Parser for the ZX Spectrum Soundtracker (.stc) file format",
-  "homepage": "https://github.com/reverietracker/stcfile",
-  "bugs": "https://github.com/reverietracker/stcfile/issues",
+  "homepage": "https://github.com/reverietracker/stcformat",
+  "bugs": "https://github.com/reverietracker/stcformat/issues",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage"

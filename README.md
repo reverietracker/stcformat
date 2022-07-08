@@ -1,11 +1,11 @@
-# stcfile
+# stcformat
 
 A parser for ZX Spectrum Soundtracker (.stc) files
 
 ## Installation
 
 ```
-npm install stcfile
+npm install stcformat
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ This package exports a function `readSTC` which accepts a buffer containing the 
 
 ```javascript
 const fs = require("fs");
-const { readSTC } = require('stcfile');
+const { readSTC } = require('stcformat');
 
 const buf = fs.readFileSync('myfile.stc'));
 const stc = readSTC(buf);

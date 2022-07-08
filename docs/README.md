@@ -1,3 +1,3 @@
 # Documentation
 
-* [stcfile](../README.md)
+* [stcformat](../README.md)
