@@ -37,7 +37,7 @@ function readSTC(buf) {
     }
 
     const positionsBuffer = buf.subarray(positionsOffset);
-    const songLength = positionsBuffer.readUint8(0) - 1;
+    const songLength = positionsBuffer.readUint8(0) + 1;
     const positions = [];
     let positionOffset = 1;
     for (let i = 0; i < songLength; i++) {

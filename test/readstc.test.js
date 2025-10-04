@@ -7,7 +7,7 @@ test("can read STC files", () => {
     const stc = readSTC(buf);
 
     expect(stc.tempo).toBe(4);
-    expect(stc.length).toBe(33);
+    expect(stc.length).toBe(35);
 
     const sample = stc.samples[7];
     expect(sample.repeat).toBe(26);
